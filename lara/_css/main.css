@@ -46,9 +46,12 @@ color:#305e99;
 border-bottom: 1px dashed #305e99;
 }
 
+
+
 h1{
 font-size:200%; font-family:Georgia, 'Times New Roman', Times, serif; font-weight:normal; font-variant:small-caps; letter-spacing:.1em;
 text-align:center;
+background:none;
 }
 
 h2{
@@ -470,14 +473,12 @@ padding-left:10em;
 
 div#details ul {
 list-style-type:none;
-margin:0.5em;
-padding:0 0 0 1em;
+margin:0.5em auto;
+padding:0 2em 0 0;
 font-family: Georgia, "Times New Roman", Times, serif; font-size:0.8em;
 font-size:1.2em;
 line-height:1.8;
 text-align: left;
-/*
-background:url(../_images/details.png) no-repeat;*/
 }
 
 div#details li {
@@ -493,7 +494,7 @@ vertical-align:top;
 }
 
 div#details  img{
-vertical-align:top;
+vertical-align:middle;
 }
 /*=======flashgallery_1========*/
 
@@ -545,10 +546,15 @@ background-color:#e2e0ff;
 left: 0; 
 padding: 2em 0.5em;
 }
+#sponsor1 a:link,#sponsor2 a:link{
+border:none;
+}
 
 #sponsor1 a:hover,#sponsor2 a:hover{
 border-bottom:1px solid #305e99;
 }
+
+
 
 h4.warning{
 padding: .8em;

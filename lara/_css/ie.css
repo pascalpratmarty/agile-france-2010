@@ -29,21 +29,24 @@ img, img a {
 border:none; 
 }
 
-img, div , a, input, p, h*{
+img, div , a, input, p, h{
 behavior: url(_ressources/iepngfix.htc)
 }
 
 a:link, a:visited{
 font-weight:bold;
-color:#21063c;
+color:#15107f;
 text-decoration:none;
+border-bottom: 2px dotted #15107f;
 }
 
 a:hover, a:active{
-cursor:hand;
+cursor:pointer;
 color:#305e99;
 border-bottom: 1px dashed #305e99;
 }
+
+
 
 h1{
 font-size:200%; font-family:Georgia, 'Times New Roman', Times, serif; font-weight:normal; font-variant:small-caps; letter-spacing:.1em;
@@ -121,13 +124,13 @@ div#wrapper h1{
 margin:2px auto 0;
 }
 
-
 div#content{
 margin:0 10px;
 padding:0;
 width:840px;
 background:url(../_images/container1_1.png) repeat-y;
 }
+
 
 
 div#content blockquote{
@@ -193,7 +196,7 @@ margin: 0 20px 0 20px;
 
 div#navMain{
 width:860px;
-margin:0 5px 0 0;
+margin:0 auto;
 padding:0;
 }
 
@@ -264,9 +267,10 @@ background: url(../_images/li_navMain.png) no-repeat -560px 0;
 ul#mainMenu a{
 display: block;
 width: 140px;
-height: 50px;
+height: 60px;
 text-indent: -9999px;
 text-decoration: none;
+border-bottom:none;
 overflow: hidden;
 }
 
@@ -371,17 +375,16 @@ margin:0;
 padding:0;
 }
 
-
 #wrapper1{
-margin:0  120px 0 120px;
+margin:0  auto;
 padding:0;
-width:860px;
+width:60em;
 }
 
 /*=======banner========*/
 
 div#bannerContainer{
-margin:0 20px 0 20px;
+margin:0;
 padding:0;
 width:840px;
 height:200px;
@@ -394,7 +397,7 @@ border-bottom:2px solid #eeedf8;
 
 div#container{
 width:860px;
-margin:0 120px 0 120px;   
+margin:0 auto;   
 padding:0.5em 0.75em;
 background:#f6f5fe url(../_images/container4.png) no-repeat;
 text-align:left;
@@ -427,7 +430,6 @@ font-size:100%;
 line-height:1.5;
 }
 
-
 div#inscriptions{
 margin: 0 auto;
 padding:5em 10em;
@@ -451,6 +453,7 @@ padding:3em;
 margin-top:2em;
 padding:0.5em;
 }
+
 #mainContent1 h4.button{
 margin:0.25em auto;
 padding:0;
@@ -459,30 +462,26 @@ height:100px;
 background: #e2e0ff;
 }
 
-#mainContent1 ul.orateur li, div#mainContent ul#direction li{
+#mainContent1 ul.orateur li,div#mainContent ul#direction li{
 margin:0 3.5em;
 padding:0.25em;
 }
-
 /*=====details=======*/
 div#details{
 margin:0 auto;
 width:40em;
 padding-left:10em;
-
 }
 
 
 div#details ul {
 list-style-type:none;
-margin:0.5em;
-padding:0 0 0 1em;
+margin:0.5em auto;
+padding:0 2em 0 0;
 font-family: Georgia, "Times New Roman", Times, serif; font-size:0.8em;
 font-size:1.2em;
 line-height:1.8;
 text-align: left;
-/*
-background:url(../_images/details.png) no-repeat;*/
 }
 
 div#details li {
@@ -491,14 +490,14 @@ padding:0em 1em 0.2em 1em;
 }
 
 div#details p {
-margin:0 0.5em 0 0.5em;
-padding:0.15em 0.15em 0.15em 1em;
+margin:0 0.5em 0 3em;
+padding:0 0.15em 0.15em 1em;
 font-size:12pt;
 vertical-align:top;
 }
 
 div#details  img{
-vertical-align:top;
+vertical-align:middle;
 }
 /*=======flashgallery_1========*/
 
@@ -517,24 +516,21 @@ border-top:3px solid #eeedf8;
 
 
 #sponsor1{
-display:inline;
-zoom:1;
+/display:inline;
+/zoom:1;
 position:absolute;
 top:420px;
-left:0;
+left:-8em;
 width:180px;
 margin:0 10px 0 0;
 padding:0;
-
 }
 
 #sponsor2{
-display:inline;
-zoom:1;
 position:absolute;
 top:420px;
-left:660px;
-margin: 0 0 0 340px;
+left:34em;
+margin: 0 0 0 350px;
 padding:0;
 width:180px;
 }
@@ -545,7 +541,7 @@ margin: 0;
 padding: 0;
 }
 
-#sponsor1 h4, #sponsor2 h4{
+#sponsor1 h4, #sponsor2 h4, h4.bouton{
 font-size:10pt;
 background-color:#e2e0ff;
 }
@@ -553,10 +549,15 @@ background-color:#e2e0ff;
 left: 0; 
 padding: 2em 0.5em;
 }
+#sponsor1 a:link,#sponsor2 a:link{
+border:none;
+}
 
 #sponsor1 a:hover,#sponsor2 a:hover{
 border-bottom:1px solid #305e99;
 }
+
+
 
 h4.warning{
 padding: .8em;

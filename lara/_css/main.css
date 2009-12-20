@@ -415,7 +415,7 @@ overflow:hidden;
 /*======mainContent1=======*/
 div#mainContent1{
 margin:0 auto;
-width:840px;
+width:680px;
 text-align:left;
 background:url(../_images/container1_1.png) repeat-y;
 }
@@ -513,18 +513,17 @@ padding: 0.5em 1em 0.5em 0;
 border-top:3px solid #eeedf8;
 }
 
-/* ===== sponsors ===== */
-
+ /*===== sponsors =====*/
 
 #sponsor1{
 /display:inline;
 /zoom:1;
 position:absolute;
 top:420px;
-left:-8em;
-width:140px;
+right:53em;
+width:200px;
 margin:0 10px 0 0;
-padding:0;
+padding:0 0 0 30px;
 }
 
 #sponsor2{
@@ -533,30 +532,20 @@ top:420px;
 left:35em;
 margin: 0 0 0 350px;
 padding:0;
-width:140px;
-}
-
-#sponsor1 ul, #sponsor2 ul{
-list-style-type: none;
-margin: 0;
-padding: 0;
+width:200px;
 }
 
 #sponsor1 h4, #sponsor2 h4, h4.bouton{
 font-size:8pt;
 background-color:#e2e0ff;
 }
-#sponsor1 li,#sponsor2 li{
-left: 0; 
-padding: 2em 0.5em;
-}
-#sponsor1 a:link,#sponsor2 a:link{
-border:none;
+
+iframe h4{
+margin:0 20px 0 20px;
+font-size:8pt;
+background-color:#e2e0ff;
 }
 
-#sponsor1 a:hover,#sponsor2 a:hover{
-border-bottom:1px solid #305e99;
-}
 
 h4.warning{
 padding: .8em;
@@ -582,7 +571,7 @@ letter-spacing : .2em;
 table {
 display: inline-table;
 margin:0 25px 10px 25px;
-width:47.5em;
+width:45.5em;
 border : 1px solid #305e99;
  }
 th {

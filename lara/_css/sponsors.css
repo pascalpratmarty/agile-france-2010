@@ -1,0 +1,43 @@
+/* ===== sponsors ===== */
+
+img {
+margin: 30px 20px 0 0;
+border:none;
+}
+
+img, img a {
+border:none; 
+}
+
+
+#sponsors1 a, #sponsors2 a{
+border:none;
+}
+
+
+ul{
+list-style-type: none;
+margin: 0 0 0 20px;
+padding: 0;
+}
+
+h4,h4.bouton{
+font-size:8pt;
+background-color:#e2e0ff;
+}
+
+li{
+margin-left: 0; 
+padding: 2em 0.5em;
+
+}
+
+a:link, a:active{
+border:none;
+}
+
+a:hover, a:visited{
+border-bottom:1px solid #305e99;
+}
+
+

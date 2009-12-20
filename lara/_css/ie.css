@@ -418,7 +418,7 @@ div#mainContent1{
 display:inline;
 zoom:1;
 margin:0 40px 0 80px;
-width:800px;
+width:680px;
 text-align:left;
 background:url(../_images/container1_1.png) repeat-y;
 }
@@ -516,6 +516,10 @@ border-top:3px solid #eeedf8;
 }
 
 /* ===== sponsors ===== */
+iframe{
+margin:0 auto;
+border:none;
+}
 
 
 #sponsor1{
@@ -523,8 +527,8 @@ border-top:3px solid #eeedf8;
 /zoom:1;
 position:absolute;
 top:420px;
-left:-8em;
-width:140px;
+right:52.5em;
+width:200px;
 margin:0 10px 0 0;
 padding:0;
 }
@@ -532,34 +536,22 @@ padding:0;
 #sponsor2{
 position:absolute;
 top:420px;
-left:34em;
+left:35em;
 margin: 0 0 0 350px;
 padding:0;
-width:140px;
-}
-
-#sponsor1 ul, #sponsor2 ul{
-list-style-type: none;
-margin: 0;
-padding: 0;
+width:200px;
 }
 
 #sponsor1 h4, #sponsor2 h4, h4.bouton{
 font-size:8pt;
 background-color:#e2e0ff;
 }
-#sponsor1 li,#sponsor2 li{
-left: 0; 
-padding: 2em 0.5em;
-}
-#sponsor1 a:link,#sponsor2 a:link{
-border:none;
-}
 
-#sponsor1 a:hover,#sponsor2 a:hover{
-border-bottom:1px solid #305e99;
+iframe h4{
+margin:0 4em 0 4em;
+font-size:8pt;
+background-color:#e2e0ff;
 }
-
 
 
 h4.warning{
@@ -572,6 +564,13 @@ padding: .8em;
 font-weight:bold;
 }
 
+iframe a:link, iframe img a:link{
+border:none;
+}
+
+#sponsor1 a:hover,#sponsor2 a:hover{
+border-bottom:1px solid #305e99;
+}
 
 /*====Table===== */
 caption { 
@@ -586,7 +585,7 @@ letter-spacing : .2em;
 table {
 display: inline-table;
 margin:0 25px 10px 25px;
-width:47.5em;
+width:45.5em;
 border : 1px solid #305e99;
  }
 th {
@@ -758,7 +757,7 @@ table#prog{
 /display:table;
 margin:0;
 padding:0;
-width:60em;
+width:50em;
 }
 
 ul.table{
